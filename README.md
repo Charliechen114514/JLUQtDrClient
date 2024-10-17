@@ -2,11 +2,19 @@
 
 ## 开始之前...
 
-​	这是一个使用Qt6框架的，是由Dessera大爹（Github地址： https://github.com/Dessera）开发的cygnus-rs的一个简单的UI包装器，cygnus-rs的项目地址在：[Dessera/cygnus-rs: Rust Implementation of JLU Drcom client (github.com)](https://github.com/Dessera/cygnus-rs)。具体的使用方法参考下文 :)
+​	这是一个使用Qt6框架的，是由Dessera大爹开发的cygnus-rs的一个简单的UI包装器，cygnus-rs的项目地址在：[Dessera/cygnus-rs: Rust Implementation of JLU Drcom client (github.com)](https://github.com/Dessera/cygnus-rs)。
+
+​	具体的使用方法参考下文 :)
+
+​	Dessera's github :https://github.com/Dessera
 
 ## Stylesheet
 
-​	本项目使用的Stylesheet是著名MIT开源的QSS，[ColinDuquesnoy/QDarkStyleSheet: A dark style sheet for QtWidgets application (github.com)](https://github.com/ColinDuquesnoy/QDarkStyleSheet?tab=License-1-ov-file) ,如有侵犯，请立即告知本人删除。
+​	本项目使用的Stylesheet是著名MIT开源的QSS
+
+​	[ColinDuquesnoy/QDarkStyleSheet: A dark style sheet for QtWidgets application (github.com)](https://github.com/ColinDuquesnoy/QDarkStyleSheet?tab=License-1-ov-file) 
+
+​	如有侵犯，请立即告知本人删除。
 
 ## 方法1 直接使用发行
 
