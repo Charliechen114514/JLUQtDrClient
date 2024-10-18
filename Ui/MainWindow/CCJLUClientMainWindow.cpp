@@ -276,6 +276,8 @@ void CCJLUClientMainWindow::tell_time_out() {
     movie_src->stop();
     is_first_success = false;
     statusBar()->showMessage("连接超时");
+    ui->btn_login->setText("登录");
+    ui->action_login->setText("登录");
     ui->btn_login->setEnabled(true);
 }
 

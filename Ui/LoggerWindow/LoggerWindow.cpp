@@ -1,6 +1,6 @@
 #include "LoggerWindow.h"
-#include <StateChecker.h>
 #include <QMessageBox>
+#include "StateChecker.h"
 #include "ui_LoggerWindow.h"
 LoggerWindow::LoggerWindow(QWidget* parent)
     : QMainWindow(parent), ui(new Ui::LoggerWindow) {
@@ -28,6 +28,13 @@ void LoggerWindow::append_output(const QString& message) {
             emit awaiting_connections();
             break;
     }
+
+#ifdef CLEAR_LOG_IF_REACH_LIMITATION
+    // Clear the logger for no more message...
+    if (check_shell_clear(ui->textBrowser_output->toPlainText())) {
+        ui->textBrowser_output->clear();
+    }
+#endif
     ui->textBrowser_output->append(message);
 }
 

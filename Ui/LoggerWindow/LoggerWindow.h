@@ -2,6 +2,7 @@
 #define LOGGERWINDOW_H
 
 #include <QMainWindow>
+#include "ConstParams.h"
 
 namespace Ui {
 class LoggerWindow;
@@ -23,6 +24,11 @@ signals:
     void awaiting_connections();
 
 private:
+#ifdef CLEAR_LOG_IF_REACH_LIMITATION
+    bool inline check_shell_clear(const QString &checkee) {
+        return checkee.size() >= ParamsConst::MAX_ALLOWED_BUFFER_FOR_CLEAR;
+    }
+#endif
     Ui::LoggerWindow *ui;
 };
 

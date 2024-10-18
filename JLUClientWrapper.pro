@@ -67,6 +67,13 @@ DEFINES +=  __MAJOR_VERSION=1       \
             __MINOR_VERISON=0       \
             __NAME=\\\"CCJLUDrClient\\\"
 
+DEFINES += CLEAR_LOG_IF_REACH_LIMITATION
+
+contains(DEFINES, CLEAR_LOG_IF_REACH_LIMITATION){
+    DEFINES += __CLEAR_LIMITATION=200
+}
+
+
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
