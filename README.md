@@ -18,7 +18,7 @@
 
 ## 方法1 直接使用发行
 
-​	Release地址：[Release v1.0 · Charliechen114514/JLUQtDrClient (github.com)](https://github.com/Charliechen114514/JLUQtDrClient/releases/tag/v1.0)
+​	Release地址：[Release v1.1 · Charliechen114514/JLUQtDrClient (github.com)](https://github.com/Charliechen114514/JLUQtDrClient/releases/tag/v1.1)
 
 ​	下载后前往[Dessera/cygnus-rs: Rust Implementation of JLU Drcom client (github.com)](https://github.com/Dessera/cygnus-rs)下载核心驱动，放到可执行文件目录下的core文件夹下，即可按照软件内帮助文档依次注册用户与启动文件！
 
@@ -44,7 +44,7 @@
 
 One shall use the sources directly for the releases at
 
-> [Release v1.0 · Charliechen114514/JLUQtDrClient (github.com)](https://github.com/Charliechen114514/JLUQtDrClient/releases/tag/v1.0)
+> [Release v1.1 · Charliechen114514/JLUQtDrClient (github.com)](https://github.com/Charliechen114514/JLUQtDrClient/releases/tag/v1.1)
 
 or see the building manuals below :)
 
